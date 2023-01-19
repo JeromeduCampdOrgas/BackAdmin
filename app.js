@@ -13,7 +13,6 @@ const app = express();
 
 app.use(helmet());
 
-console.log(process.env.DB_USER);
 mongoose
   .connect(
     "mongodb+srv://" +
